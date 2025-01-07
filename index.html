@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Support and Cyber Security Specialist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            margin-top: 20px;
+        }
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>IT Support and Cyber Security Specialist</h1>
+    </header>
+    <section>
+        <h2>Our Services</h2>
+        <ul>
+            <li>Computer Hardware and Networking Support</li>
+            <li>Cyber Security Solutions</li>
+            <li>Cloud Server Migration</li>
+            <li>Database Installation and Management</li>
+            <li>On-site Desktop Support Engineers</li>
+        </ul>
+        
+        <h2>Contact Us</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="issue">Your Issue:</label>
+            <textarea id="issue" name="issue" rows="4" placeholder="Describe your issue" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
